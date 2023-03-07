@@ -1,9 +1,9 @@
-import React, { Children } from 'react'
+import React from 'react'
 import { IoMdAdd } from 'react-icons/io'
 import { BsPerson } from 'react-icons/bs'
 import {AiOutlineFolderOpen} from 'react-icons/ai'
-import {GrDocumentUpload} from 'react-icons/gr'
-import {CgLaptop, CgNotes} from 'react-icons/cg'
+import {MdOutlineUploadFile} from 'react-icons/md'
+import { CgNotes } from 'react-icons/cg'
 import {CiSettings} from 'react-icons/ci'
 import {FiLogOut} from 'react-icons/fi'
 import {Link, NavLink } from 'react-router-dom'
@@ -30,7 +30,7 @@ const Sidebar = ({ children }) => {
     {
       path:'/upload',
       name:'Upload',
-      icon: <GrDocumentUpload/>
+      icon: <MdOutlineUploadFile/>
     },
     {
       path:'/report',
@@ -56,7 +56,7 @@ const Sidebar = ({ children }) => {
         <div className="top_section">
 
           <div className="image">
-            <Link to='/'><img src={wave} alt='image'/></Link>
+            <Link to='/'><img src={wave} alt='ecg'/></Link>
           </div>
 
         </div>
