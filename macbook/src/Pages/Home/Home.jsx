@@ -1,14 +1,169 @@
-import React from 'react'
-import Details from './Details'
-import Profile from './Profile'
+import React from "react";
+import girl from "../../Assets/girl1.jpg";
+import { ImFileText } from "react-icons/im";
+import { Link } from "react-router-dom";
 
-const Home = () => {
+const home = () => {
   return (
-    <div>
-        <Profile/>
-        <Details/>
-    </div>
-  )
-}
+    <div className="home">
+      <div className="profile_container">
+        <div className="profile">
+          <div className="image">
+            <img src={girl} alt="profile" />
+          </div>
+          <h2>Diane Cooper</h2>
+          <p className="email">diana.cooper@example.com</p>
+          <div className="line">
+            <div className="past">
+              <p>15</p>
+              <p>Past</p>
+            </div>
+            <div className="h_line"></div>
+            <div className="upcoming">
+              <p>02</p>
+              <p>Upcoming</p>
+            </div>
+          </div>
+        </div>
 
-export default Home
+        <div className="part-2">
+          <button>Send Message</button>
+          <h3>Files / Documents</h3>
+
+          <div className="report">
+            <div className="pdf">
+              <ImFileText className="note" />
+              <h4>Check Up Results.pdf</h4>
+            </div>
+            <div className="pdf">
+              <ImFileText className="note" />
+              <h4>Check Up Results.pdf</h4>
+            </div>
+            <div className="pdf">
+              <ImFileText className="note" />
+              <h4>Medical Prescription.pdf</h4>
+            </div>
+            <div className="pdf">
+              <ImFileText className="note" />
+              <h4>Dental X-Ray Result.pdf</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="details">
+        <div className="section1">
+          <div>
+            <h5>Gender</h5>
+            <p>Female</p>
+            <div className="v_line"></div>
+          </div>
+
+          <div>
+            <h5>Birthday</h5>
+            <p>Feb 24th, 1997</p>
+            <div className="v_line"> </div>
+          </div>
+
+          <div>
+            <h5>Phone Number</h5>
+            <p>(239) 555-0108</p>
+            <div className="v_line"></div>
+          </div>
+
+          <div>
+            <h5>Registered Date</h5>
+            <p>Feb 24th, 1997</p>
+            <div className="v_line"></div>
+          </div>
+
+          <div>
+            <h5>Street Address</h5>
+            <p>JL.Diponegoro No.21</p>
+            <div className="v_line"></div>
+          </div>
+
+          <div>
+            <h5>City</h5>
+            <p>Cilacap</p>
+            <div className="v_line"></div>
+          </div>
+          <div>
+            <h5>Zip Code</h5>
+            <p>655849</p>
+            <div className="v_line"></div>
+          </div>
+
+          <div>
+            <h5>Member Status</h5>
+            <p>Active Member</p>
+            <div className="v_line"></div>
+          </div>
+        </div>
+
+        <div className="section2">
+          <Link>Upcoming Appointments</Link>
+          <p>Past Appointments</p>
+          <p>Medical Records</p>
+        </div>
+
+        <div className="treatment">
+          <div className="previous">
+            <p>Root Canal Treatment</p>
+            <p className="show">Show Previous Treatments</p>
+          </div>
+          <div className="date">
+            <div className="h_line">
+              <h2>26 Nov ‘19</h2>
+              <p>09.00 - 10.00</p>
+              
+            </div>
+            <div className="h_line">
+              <p>Treatment</p>
+              <h4>Open Access</h4>
+              
+            </div>
+            <div>
+              <p>Dentist</p>
+              <h4>Drg. Adam H.</h4>
+            </div>
+            <div>
+              <p>Nurse</p>
+              <h4>Jessicamila</h4>
+            </div>
+            <div className="note_report">
+              <ImFileText className="note" />
+              <p>note</p>
+            </div>
+          </div>
+          <div className="date">
+            <div className="h_line">
+              <h2>12 Nov ‘19</h2>
+              <p>09.00 - 10.00</p>
+  
+            </div>
+            <div className="h_line">
+              <p>Treatment</p>
+              <h4>Open Access</h4>
+            
+            </div>
+            <div>
+              <p>Dentist</p>
+              <h4>Drg. Adam H.</h4>
+            </div>
+            <div>
+              <p>Nurse</p>
+              <h4>Jessicamila</h4>
+            </div>
+            <div className="note_report">
+              <ImFileText className="note" />
+              <p>note</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default home;
