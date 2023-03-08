@@ -1,8 +1,35 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none; 
-      
+    text-decoration: none;      
+}
+
+h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16.8px;
+    color: #242831;
+}
+p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #6B6B6B;
+}
+
+h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #242831;
+    padding-top: 4px;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242831;
 }
 
 /* ================Sidebar============ */
@@ -160,6 +187,10 @@ main{
 }
 
 .details .section2 a{
+   
+    font-weight: 500;
+    font-size: 13px;
+    color: #4469BA;
     background-color:#ffffff;
     padding: 8px 25px 8px 25px;
     border-radius: 5px;
@@ -180,10 +211,9 @@ main{
 .treatment .previous{
     display: flex;
     justify-content: space-between;
-    /* background-color:#F8F8F8; */
     padding: 14px 28px 14px 28px;
     border-bottom: 1px solid #6B6B6B;
-    ;
+    margin-bottom: 23px;
 }
 
 .treatment .previous .show{
@@ -199,20 +229,22 @@ main{
     display: flex;
     justify-content: space-between;
     background-color:#ffffff;
-    margin: 19px 27px 19px 25px;
+    margin: 0px 27px 25px 25px;
     padding: 13px 21px 13px 23px;
 }
 
 .date .h_line{
     border-right: 1px solid #6B6B6B;
-    padding-right: 40px;
-    
+    padding-right: 40px;   
 }
-.note_report{
+.h_line h2{
+    padding-bottom: 10px;
+}
+.note_report, .note_report p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     color: #3156C8;
     ;
 }

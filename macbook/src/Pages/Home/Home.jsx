@@ -54,49 +54,49 @@ const home = () => {
       <div className="details">
         <div className="section1">
           <div>
-            <h5>Gender</h5>
-            <p>Female</p>
+            <p>Gender</p>
+            <h5>Female</h5>
             <div className="v_line"></div>
           </div>
 
           <div>
-            <h5>Birthday</h5>
-            <p>Feb 24th, 1997</p>
+            <p>Birthday</p>
+            <h5>Feb 24th, 1997</h5>
             <div className="v_line"> </div>
           </div>
 
           <div>
-            <h5>Phone Number</h5>
-            <p>(239) 555-0108</p>
+            <p>Phone Number</p>
+            <h5>(239) 555-0108</h5>
             <div className="v_line"></div>
           </div>
 
           <div>
-            <h5>Registered Date</h5>
-            <p>Feb 24th, 1997</p>
+            <p>Registered Date</p>
+            <h5>Feb 24th, 1997</h5>
             <div className="v_line"></div>
           </div>
 
           <div>
-            <h5>Street Address</h5>
-            <p>JL.Diponegoro No.21</p>
+            <p>Street Address</p>
+            <h5>JL.Diponegoro No.21</h5>
             <div className="v_line"></div>
           </div>
 
           <div>
-            <h5>City</h5>
-            <p>Cilacap</p>
+            <p>City</p>
+            <h5>Cilacap</h5>
             <div className="v_line"></div>
           </div>
           <div>
-            <h5>Zip Code</h5>
-            <p>655849</p>
+            <p>Zip Code</p>
+            <h5>655849</h5>
             <div className="v_line"></div>
           </div>
 
           <div>
-            <h5>Member Status</h5>
-            <p>Active Member</p>
+            <p>Member Status</p>
+            <h5>Active Member</h5>
             <div className="v_line"></div>
           </div>
         </div>
